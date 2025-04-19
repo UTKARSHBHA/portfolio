@@ -25,5 +25,21 @@ export interface Project {
       githubLink: "https://github.com/yourusername/blog-platform",
       image: "/assets/blog.png",
     },
+    {
+      title: "Blog Platform",
+      description: "A full-stack blog platform with user auth and rich text editor.",
+      techStack: ["React", "Node.js", "MongoDB"],
+      liveLink: "https://yourblog.com",
+      githubLink: "https://github.com/yourusername/blog-platform",
+      image: "/assets/blog.png",
+    },
+    {
+      title: "Blog Platform",
+      description: "A full-stack blog platform with user auth and rich text editor.",
+      techStack: ["React", "Node.js", "MongoDB"],
+      liveLink: "https://yourblog.com",
+      githubLink: "https://github.com/yourusername/blog-platform",
+      image: "/assets/blog.png",
+    },
   ];
   

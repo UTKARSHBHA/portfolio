@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section id="projects" className="px-6 md:px-20 py-16 bg-white">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
+        <h2 className="text-3xl md:text-4xl text-[#FF6B35] mb-12">
           Projects
         </h2>
         <div className="grid gap-10 md:grid-cols-2">
@@ -28,7 +28,7 @@ const Projects = () => {
                   {project.techStack.map((tech, i) => (
                     <span
                       key={i}
-                      className="bg-blue-100 text-blue-700 text-xs font-medium px-2.5 py-1 rounded-full"
+                      className="bg-[#ff6b352c] text-[#FF6B35] text-xs font-medium px-2.5 py-1 rounded-full"
                     >
                       {tech}
                     </span>
@@ -38,7 +38,7 @@ const Projects = () => {
                   <a
                     href={project.liveLink}
                     target="_blank"
-                    className="text-blue-600 hover:underline font-medium"
+                    className="text-[#FF6B35] hover:underline font-medium"
                   >
                     Live
                   </a>
