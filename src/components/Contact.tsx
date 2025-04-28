@@ -12,7 +12,7 @@ const Contact = () => {
         </p>
 
         <form
-          action="https://formspree.io/f/YOUR_FORM_ID" // Replace this
+          action="https://formspree.io/f/xvgapkpv"
           method="POST"
           className="grid gap-6 text-left"
         >
@@ -21,25 +21,25 @@ const Contact = () => {
             name="name"
             placeholder="Your Name"
             required
-            className="p-3 rounded-lg border border-gray-300 focus:outline-blue-500"
+            className="p-3 rounded-lg border border-gray-300 focus:outline-[#FF6B35]"
           />
           <input
             type="email"
             name="email"
             placeholder="Your Email"
             required
-            className="p-3 rounded-lg border border-gray-300 focus:outline-blue-500"
+            className="p-3 rounded-lg border border-gray-300 focus:outline-[#FF6B35]"
           />
           <textarea
             name="message"
             rows={5}
             placeholder="Your Message"
             required
-            className="p-3 rounded-lg border border-gray-300 focus:outline-blue-500"
+            className="p-3 rounded-lg border border-gray-300 focus:outline-[#FF6B35]"
           ></textarea>
           <button
             type="submit"
-            className="bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-blue-700 transition"
+            className="bg-[#FF6B35] text-white font-semibold py-3 rounded-lg hover:bg-[#ff5735] transition"
           >
             Send Message
           </button>
@@ -47,22 +47,22 @@ const Contact = () => {
 
         <div className="mt-10 flex justify-center gap-6">
           <a
-            href="mailto:youremail@example.com"
-            className="text-gray-600 hover:text-blue-600 transition"
+            href="mailto:ub2092000@gmail.com"
+            className="text-gray-600 hover:text-[#FF6B35] transition"
           >
             📧 Email
           </a>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/utkarshbha"
             target="_blank"
-            className="text-gray-600 hover:text-blue-600 transition"
+            className="text-gray-600 hover:text-[#FF6B35] transition"
           >
             💻 GitHub
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/utkarsh-bhardwaj-4a00911b9/"
             target="_blank"
-            className="text-gray-600 hover:text-blue-600 transition"
+            className="text-gray-600 hover:text-[#FF6B35] transition"
           >
             💼 LinkedIn
           </a>

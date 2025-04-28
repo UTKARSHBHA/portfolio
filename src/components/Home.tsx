@@ -8,7 +8,7 @@ const Home = () => {
     return (
       <>
         <Navbar />
-        <main className=" "> {/* Add top padding to avoid navbar overlap */}
+        <main>
           <Hero />
           <About />
           <Projects />
